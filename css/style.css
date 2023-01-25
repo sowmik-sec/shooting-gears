@@ -84,3 +84,33 @@ main {
   padding: 17px 15px;
   box-shadow: 0 0 3px 3px rgb(240, 240, 240);
 }
+
+.more {
+  text-align: right;
+  margin-top: 5px;
+  margin-right: 75px;
+}
+.more a {
+  text-decoration: none;
+  color: #e02c6d;
+}
+
+/* Feature section  */
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.feature-info {
+  margin-left: 96px;
+  margin-right: 45px;
+}
+
+.join {
+  background-color: #e02c6d;
+  color: white;
+  border: 0;
+  padding: 10px;
+}
