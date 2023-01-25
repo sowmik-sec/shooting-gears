@@ -4,7 +4,7 @@
 /* common properties */
 
 body {
-  margin: 70px 120px 0px;
+  margin: 0;
 }
 img {
   width: 100%;
@@ -12,6 +12,16 @@ img {
 
 /* Header section  */
 /* nav bar  */
+
+header,
+main,
+.feature {
+  margin: 0 120px 0;
+}
+
+header {
+  margin-top: 70px;
+}
 
 nav {
   display: flex;
@@ -113,4 +123,13 @@ main {
   color: white;
   border: 0;
   padding: 10px;
+}
+
+/* footer section  */
+footer {
+  background-color: #0a0826;
+  color: white;
+  text-align: center;
+  margin: 100px 0 0 0;
+  padding: 50px;
 }
