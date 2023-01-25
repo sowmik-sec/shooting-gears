@@ -1,0 +1,86 @@
+/* Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+/* common properties */
+
+body {
+  margin: 70px 120px 0px;
+}
+img {
+  width: 100%;
+}
+
+/* Header section  */
+/* nav bar  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list {
+  margin-right: 20px;
+}
+
+/* banner section  */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 69px;
+}
+
+.journey-start {
+  margin-top: 100px;
+}
+
+.journey-start h1 {
+  font-size: 52px;
+}
+
+.journey-start button {
+  background-color: #e02c6d;
+  color: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.main-camera {
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(238, 236, 236);
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Collection  */
+main > h3 {
+  text-align: center;
+}
+main {
+  margin-top: 80px;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0 76px;
+}
+.filled {
+  color: #fb8200;
+}
+
+.product-item {
+  padding: 17px 15px;
+  box-shadow: 0 0 3px 3px rgb(240, 240, 240);
+}
